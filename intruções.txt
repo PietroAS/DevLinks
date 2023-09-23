@@ -1,0 +1,45 @@
+*Primeira parte*
+Criar a pasta para hospedar os arquivos
+criar o index.html
+
+estruturar o html
+
+alterar o head
+
+criar o arquivo style.css
+
+adicionar o caminho para o style.css ao index.html
+
+se possivel, adicionar a pasta com os assets para o projeto
+
+*HTML*--------------------------
+---1
+Adicionar uma div ao body, e colocar um ID "container"
+nela
+---2
+colocar caixa para foto
+  div id profile
+    tag img
+
+*CSS*---------------------------
+---1
+importar o plano de fundo
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+ 
+---2
+pegar o id container
+  altura
+  largura
+  colocar borda, cor, opacidade
+  ajustar a centralização, utilizando a margem
+
+---3
+alterar a imagem
+  width 112px
+  centralizar com text-align center no pai, ou usando a propriedade margin, porem é necessario alterar o display para block
+
+
+
