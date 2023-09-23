@@ -34,8 +34,8 @@ body {
   background-position: top center;
   background-size: cover;
 } */
-
   background: var(--background-img) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -172,4 +172,16 @@ ajustar a centralização, utilizando a margem
   text-align: center;
   padding: 24px 0px;
   font-size: 14px;
+}
+
+/*MEDIA QUERIES---*/
+
+@media (min-width: 700px) {
+  :root {
+    --background-img: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --background-img: url(./assets/bg-desktop-light.jpg);
+  }
 }
