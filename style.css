@@ -66,7 +66,10 @@ ajustar a centralização, utilizando a margem
 
 #profile img {
   width: 112px;
+  aspect-ratio: 1;
+  object-fit: cover;
   margin-bottom: 8px;
+  border-radius: 50%;
 }
 
 #profile p {
