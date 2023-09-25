@@ -70,6 +70,7 @@ ajustar a centralização, utilizando a margem
   object-fit: cover;
   margin-bottom: 8px;
   border-radius: 50%;
+  border: solid 2px var(--stroke-color);
 }
 
 #profile p {
